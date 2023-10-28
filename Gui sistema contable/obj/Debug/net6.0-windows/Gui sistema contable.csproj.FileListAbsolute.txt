@@ -3,7 +3,6 @@ D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\bin\Debug\ne
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\bin\Debug\net6.0-windows\Gui sistema contable.runtimeconfig.json
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\bin\Debug\net6.0-windows\Gui sistema contable.dll
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\bin\Debug\net6.0-windows\Gui sistema contable.pdb
-D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui_sistema_contable.Form1.resources
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui sistema contable.csproj.GenerateResource.cache
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui sistema contable.GeneratedMSBuildEditorConfig.editorconfig
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui sistema contable.AssemblyInfoInputs.cache
@@ -16,3 +15,4 @@ D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\ne
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\ref\Gui sistema contable.dll
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui_sistema_contable.MenuPrincipal.resources
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui_sistema_contable.Properties.Resources.resources
+D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows\Gui_sistema_contable.RegistroAsiento.resources

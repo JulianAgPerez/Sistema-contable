@@ -16,5 +16,19 @@ namespace Gui_sistema_contable
         {
             InitializeComponent();
         }
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegistroAsiento reg = new RegistroAsiento();
+            reg.FormClosed += (s, args) => this.Show();
+            this.Hide();
+            reg.Show();
+ 
+        }
     }
 }
