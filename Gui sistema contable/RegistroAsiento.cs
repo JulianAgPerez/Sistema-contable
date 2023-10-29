@@ -5,11 +5,15 @@ namespace Gui_sistema_contable
         public RegistroAsiento()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < 10; i++) // Agregar 10 filas al cargar el formulario
+            {
+                dataGridView1.Rows.Add();
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -42,10 +46,9 @@ namespace Gui_sistema_contable
 
         }
 
-        private void btnSalir_Click(object sender, EventArgs e) {
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
 
-            MenuPrincipal menuPrincipal = new MenuPrincipal();
-            menuPrincipal.Show();
             this.Close();
         }
     }

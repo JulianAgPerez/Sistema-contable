@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             panelTop = new Panel();
+            lbHasta = new Label();
+            dateTimePicker2 = new DateTimePicker();
+            dateTimePicker1 = new DateTimePicker();
             lbDesde = new Label();
             lbNum = new Label();
             lbDiario = new Label();
@@ -36,20 +39,17 @@
             comboBoxDiario = new ComboBox();
             panelCentro = new Panel();
             dataGridView1 = new DataGridView();
-            columCuenta = new DataGridViewTextBoxColumn();
+            panelBajo = new Panel();
+            btnSalir = new Button();
+            btnEliminar = new Button();
+            btnGuardar = new Button();
+            lbDebito = new Label();
+            lbCredito = new Label();
             ColumNombre = new DataGridViewTextBoxColumn();
+            columCuenta = new DataGridViewComboBoxColumn();
             ColumDesc = new DataGridViewTextBoxColumn();
             ColumDebe = new DataGridViewTextBoxColumn();
             ColumHaber = new DataGridViewTextBoxColumn();
-            panelBajo = new Panel();
-            lbDebito = new Label();
-            lbCredito = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            lbHasta = new Label();
-            btnGuardar = new Button();
-            btnEliminar = new Button();
-            btnSalir = new Button();
             panelTop.SuspendLayout();
             panelCentro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -72,6 +72,33 @@
             panelTop.Name = "panelTop";
             panelTop.Size = new Size(673, 88);
             panelTop.TabIndex = 0;
+            // 
+            // lbHasta
+            // 
+            lbHasta.AutoSize = true;
+            lbHasta.Location = new Point(499, 29);
+            lbHasta.Name = "lbHasta";
+            lbHasta.Size = new Size(40, 15);
+            lbHasta.TabIndex = 8;
+            lbHasta.Text = "Hasta:";
+            lbHasta.Click += label1_Click;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Format = DateTimePickerFormat.Short;
+            dateTimePicker2.Location = new Point(545, 26);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(102, 23);
+            dateTimePicker2.TabIndex = 7;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(381, 26);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(102, 23);
+            dateTimePicker1.TabIndex = 6;
+            dateTimePicker1.Value = new DateTime(1900, 1, 1, 0, 0, 0, 0);
             // 
             // lbDesde
             // 
@@ -132,47 +159,16 @@
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { columCuenta, ColumNombre, ColumDesc, ColumDebe, ColumHaber });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColumNombre, columCuenta, ColumDesc, ColumDebe, ColumHaber });
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.Location = new Point(0, 0);
             dataGridView1.MultiSelect = false;
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dataGridView1.Size = new Size(673, 189);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // columCuenta
-            // 
-            columCuenta.HeaderText = "Cuenta";
-            columCuenta.Name = "columCuenta";
-            columCuenta.ReadOnly = true;
-            // 
-            // ColumNombre
-            // 
-            ColumNombre.HeaderText = "Nombre";
-            ColumNombre.Name = "ColumNombre";
-            ColumNombre.ReadOnly = true;
-            // 
-            // ColumDesc
-            // 
-            ColumDesc.HeaderText = "Descripcion";
-            ColumDesc.Name = "ColumDesc";
-            ColumDesc.ReadOnly = true;
-            // 
-            // ColumDebe
-            // 
-            ColumDebe.HeaderText = "Debe";
-            ColumDebe.Name = "ColumDebe";
-            ColumDebe.ReadOnly = true;
-            // 
-            // ColumHaber
-            // 
-            ColumHaber.HeaderText = "Haber";
-            ColumHaber.Name = "ColumHaber";
-            ColumHaber.ReadOnly = true;
             // 
             // panelBajo
             // 
@@ -187,6 +183,35 @@
             panelBajo.Name = "panelBajo";
             panelBajo.Size = new Size(673, 95);
             panelBajo.TabIndex = 2;
+            // 
+            // btnSalir
+            // 
+            btnSalir.Location = new Point(464, 48);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(75, 23);
+            btnSalir.TabIndex = 4;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(301, 48);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(75, 23);
+            btnEliminar.TabIndex = 3;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardar
+            // 
+            btnGuardar.Location = new Point(133, 48);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(75, 23);
+            btnGuardar.TabIndex = 2;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += button1_Click;
             // 
             // lbDebito
             // 
@@ -207,61 +232,34 @@
             lbCredito.TabIndex = 1;
             lbCredito.Text = "Total crédito:";
             // 
-            // dateTimePicker1
+            // ColumNombre
             // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(381, 26);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(102, 23);
-            dateTimePicker1.TabIndex = 6;
-            dateTimePicker1.Value = new DateTime(1900, 1, 1, 0, 0, 0, 0);
+            ColumNombre.HeaderText = "Nombre";
+            ColumNombre.Name = "ColumNombre";
+            ColumNombre.ReadOnly = true;
+            ColumNombre.Resizable = DataGridViewTriState.True;
             // 
-            // dateTimePicker2
+            // columCuenta
             // 
-            dateTimePicker2.Format = DateTimePickerFormat.Short;
-            dateTimePicker2.Location = new Point(545, 26);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(102, 23);
-            dateTimePicker2.TabIndex = 7;
+            columCuenta.HeaderText = "Cuenta";
+            columCuenta.Name = "columCuenta";
+            columCuenta.Resizable = DataGridViewTriState.True;
+            columCuenta.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
-            // lbHasta
+            // ColumDesc
             // 
-            lbHasta.AutoSize = true;
-            lbHasta.Location = new Point(499, 29);
-            lbHasta.Name = "lbHasta";
-            lbHasta.Size = new Size(40, 15);
-            lbHasta.TabIndex = 8;
-            lbHasta.Text = "Hasta:";
-            lbHasta.Click += label1_Click;
+            ColumDesc.HeaderText = "Descripcion";
+            ColumDesc.Name = "ColumDesc";
             // 
-            // btnGuardar
+            // ColumDebe
             // 
-            btnGuardar.Location = new Point(133, 48);
-            btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(75, 23);
-            btnGuardar.TabIndex = 2;
-            btnGuardar.Text = "Guardar";
-            btnGuardar.UseVisualStyleBackColor = true;
-            btnGuardar.Click += button1_Click;
+            ColumDebe.HeaderText = "Debe";
+            ColumDebe.Name = "ColumDebe";
             // 
-            // btnEliminar
+            // ColumHaber
             // 
-            btnEliminar.Location = new Point(301, 48);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(75, 23);
-            btnEliminar.TabIndex = 3;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // btnSalir
-            // 
-            btnSalir.Location = new Point(464, 48);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(75, 23);
-            btnSalir.TabIndex = 4;
-            btnSalir.Text = "Salir";
-            btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += btnSalir_Click;
+            ColumHaber.HeaderText = "Haber";
+            ColumHaber.Name = "ColumHaber";
             // 
             // RegistroAsiento
             // 
@@ -293,11 +291,6 @@
         private Label lbNum;
         private Panel panelCentro;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn columCuenta;
-        private DataGridViewTextBoxColumn ColumNombre;
-        private DataGridViewTextBoxColumn ColumDesc;
-        private DataGridViewTextBoxColumn ColumDebe;
-        private DataGridViewTextBoxColumn ColumHaber;
         private Panel panelBajo;
         private Label lbDebito;
         private Label lbCredito;
@@ -307,5 +300,10 @@
         private Button btnSalir;
         private Button btnEliminar;
         private Button btnGuardar;
+        private DataGridViewTextBoxColumn ColumNombre;
+        private DataGridViewComboBoxColumn columCuenta;
+        private DataGridViewTextBoxColumn ColumDesc;
+        private DataGridViewTextBoxColumn ColumDebe;
+        private DataGridViewTextBoxColumn ColumHaber;
     }
 }
