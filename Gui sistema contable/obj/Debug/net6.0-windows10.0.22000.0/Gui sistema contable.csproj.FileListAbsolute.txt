@@ -20,3 +20,26 @@ D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\ne
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.pdb
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.genruntimeconfig.cache
 D:\Juli cosas\Practica c#\Gui sistema contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\ref\Gui sistema contable.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.exe
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.dll.config
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.deps.json
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.runtimeconfig.json
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.pdb
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Microsoft.Windows.SDK.NET.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\WinRT.Runtime.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.Form1.resources
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.MenuPrincipal.resources
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.Properties.Resources.resources
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.RegistroAsiento.resources
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.csproj.GenerateResource.cache
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.GeneratedMSBuildEditorConfig.editorconfig
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.AssemblyInfoInputs.cache
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.AssemblyInfo.cs
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.csproj.CoreCompileInputs.cache
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.csproj.CopyComplete
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\refint\Gui sistema contable.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.pdb
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.genruntimeconfig.cache
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\ref\Gui sistema contable.dll

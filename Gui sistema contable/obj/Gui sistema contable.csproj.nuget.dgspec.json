@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\Gui sistema contable.csproj": {}
+    "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\Gui sistema contable.csproj": {}
   },
   "projects": {
-    "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\Gui sistema contable.csproj": {
+    "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\Gui sistema contable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\Gui sistema contable.csproj",
+        "projectUniqueName": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\Gui sistema contable.csproj",
         "projectName": "Gui sistema contable",
-        "projectPath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\Gui sistema contable.csproj",
+        "projectPath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\Gui sistema contable.csproj",
         "packagesPath": "C:\\Users\\Julian\\.nuget\\packages\\",
-        "outputPath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\obj\\",
+        "outputPath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Julian\\AppData\\Roaming\\NuGet\\NuGet.Config",

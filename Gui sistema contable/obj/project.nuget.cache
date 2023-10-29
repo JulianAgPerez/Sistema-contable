@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ov+9PXDQxOJKRipgI0/9Ao3bz91UX3rqWOjYGRVdH7+yc3hN+KDdOCltjZrjoEZoA9DLXLGB6n76LgFB9m5Xcg==",
+  "dgSpecHash": "y89SLQOaGGAkFKu5sMvMw9irNpDeaEgx4u6QzMaGbbtzDYo3dJyKdYXqzoQJTvpnitBpgK8PHcT/jz3LBUfZIg==",
   "success": true,
-  "projectFilePath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Gui sistema contable\\Gui sistema contable.csproj",
+  "projectFilePath": "D:\\Juli cosas\\Practica c#\\Gui sistema contable\\Sistema-contable\\Gui sistema contable\\Gui sistema contable.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Julian\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.29\\microsoft.windows.sdk.net.ref.10.0.22000.29.nupkg.sha512"
   ],

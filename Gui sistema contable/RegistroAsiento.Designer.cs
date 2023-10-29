@@ -39,17 +39,17 @@
             comboBoxDiario = new ComboBox();
             panelCentro = new Panel();
             dataGridView1 = new DataGridView();
+            ColumNombre = new DataGridViewTextBoxColumn();
+            columCuenta = new DataGridViewComboBoxColumn();
+            ColumDesc = new DataGridViewTextBoxColumn();
+            ColumDebe = new DataGridViewTextBoxColumn();
+            ColumHaber = new DataGridViewTextBoxColumn();
             panelBajo = new Panel();
             btnSalir = new Button();
             btnEliminar = new Button();
             btnGuardar = new Button();
             lbDebito = new Label();
             lbCredito = new Label();
-            ColumNombre = new DataGridViewTextBoxColumn();
-            columCuenta = new DataGridViewComboBoxColumn();
-            ColumDesc = new DataGridViewTextBoxColumn();
-            ColumDebe = new DataGridViewTextBoxColumn();
-            ColumHaber = new DataGridViewTextBoxColumn();
             panelTop.SuspendLayout();
             panelCentro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -130,9 +130,12 @@
             // 
             // textBoxNum
             // 
+            textBoxNum.BackColor = Color.Gainsboro;
             textBoxNum.Cursor = Cursors.Hand;
+            textBoxNum.Enabled = false;
             textBoxNum.Location = new Point(214, 26);
             textBoxNum.Name = "textBoxNum";
+            textBoxNum.ReadOnly = true;
             textBoxNum.Size = new Size(60, 23);
             textBoxNum.TabIndex = 2;
             // 
@@ -169,6 +172,35 @@
             dataGridView1.Size = new Size(673, 189);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // ColumNombre
+            // 
+            ColumNombre.HeaderText = "Nombre";
+            ColumNombre.Name = "ColumNombre";
+            ColumNombre.ReadOnly = true;
+            ColumNombre.Resizable = DataGridViewTriState.True;
+            // 
+            // columCuenta
+            // 
+            columCuenta.HeaderText = "Cuenta";
+            columCuenta.Name = "columCuenta";
+            columCuenta.Resizable = DataGridViewTriState.True;
+            columCuenta.SortMode = DataGridViewColumnSortMode.Automatic;
+            // 
+            // ColumDesc
+            // 
+            ColumDesc.HeaderText = "Descripcion";
+            ColumDesc.Name = "ColumDesc";
+            // 
+            // ColumDebe
+            // 
+            ColumDebe.HeaderText = "Debe";
+            ColumDebe.Name = "ColumDebe";
+            // 
+            // ColumHaber
+            // 
+            ColumHaber.HeaderText = "Haber";
+            ColumHaber.Name = "ColumHaber";
             // 
             // panelBajo
             // 
@@ -231,35 +263,6 @@
             lbCredito.Size = new Size(75, 15);
             lbCredito.TabIndex = 1;
             lbCredito.Text = "Total crédito:";
-            // 
-            // ColumNombre
-            // 
-            ColumNombre.HeaderText = "Nombre";
-            ColumNombre.Name = "ColumNombre";
-            ColumNombre.ReadOnly = true;
-            ColumNombre.Resizable = DataGridViewTriState.True;
-            // 
-            // columCuenta
-            // 
-            columCuenta.HeaderText = "Cuenta";
-            columCuenta.Name = "columCuenta";
-            columCuenta.Resizable = DataGridViewTriState.True;
-            columCuenta.SortMode = DataGridViewColumnSortMode.Automatic;
-            // 
-            // ColumDesc
-            // 
-            ColumDesc.HeaderText = "Descripcion";
-            ColumDesc.Name = "ColumDesc";
-            // 
-            // ColumDebe
-            // 
-            ColumDebe.HeaderText = "Debe";
-            ColumDebe.Name = "ColumDebe";
-            // 
-            // ColumHaber
-            // 
-            ColumHaber.HeaderText = "Haber";
-            ColumHaber.Name = "ColumHaber";
             // 
             // RegistroAsiento
             // 
