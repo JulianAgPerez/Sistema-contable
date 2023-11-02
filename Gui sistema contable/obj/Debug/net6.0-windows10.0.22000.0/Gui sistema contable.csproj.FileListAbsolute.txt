@@ -28,7 +28,6 @@ D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema cont
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.pdb
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\Microsoft.Windows.SDK.NET.dll
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\bin\Debug\net6.0-windows10.0.22000.0\WinRT.Runtime.dll
-D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.Form1.resources
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.MenuPrincipal.resources
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.Properties.Resources.resources
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.RegistroAsiento.resources
@@ -43,3 +42,4 @@ D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema cont
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.pdb
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui sistema contable.genruntimeconfig.cache
 D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\ref\Gui sistema contable.dll
+D:\Juli cosas\Practica c#\Gui sistema contable\Sistema-contable\Gui sistema contable\obj\Debug\net6.0-windows10.0.22000.0\Gui_sistema_contable.LibroDiario.resources

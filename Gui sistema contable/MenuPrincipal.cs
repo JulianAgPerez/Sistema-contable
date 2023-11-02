@@ -82,14 +82,17 @@ namespace Gui_sistema_contable
                 }
                 if (bitmap != null)
                 {
-                    // Guardar la imagen como un archivo
                     bitmap.Save("LibroDiario.png", ImageFormat.Png);
+
+                    LibroDiario imagenForm = new LibroDiario();
+                    imagenForm.pictureBox1.Image = Properties.Resources.LibroDiario;
+                    imagenForm.ShowDialog();
+
                     // Obtiene la carpeta donde se encuentra y asigna la imagen al pictureBox
                     //pictureBox1.ImageLocation = Path.Combine(Application.StartupPath, "LibroDiario.png");
                 }
                 else
                 {
-                    // Manejar el caso en el que el bitmap no se creó correctamente
                     MessageBox.Show("No se pudo generar la imagen.");
                 }
             }

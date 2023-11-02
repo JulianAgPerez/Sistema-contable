@@ -63,9 +63,9 @@ namespace Gui_sistema_contable.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap check_1828643 {
+        internal static System.Drawing.Bitmap LibroDiario {
             get {
-                object obj = ResourceManager.GetObject("check_1828643", resourceCulture);
+                object obj = ResourceManager.GetObject("LibroDiario", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
