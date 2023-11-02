@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             panelMenu = new Panel();
             panel1 = new Panel();
             label1 = new Label();
@@ -96,6 +97,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(567, 230);
             Controls.Add(panelMenu);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MenuPrincipal";
             Text = "MenuPrincipal";
             panelMenu.ResumeLayout(false);

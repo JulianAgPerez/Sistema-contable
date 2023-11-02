@@ -30,6 +30,7 @@ namespace Gui_sistema_contable
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LibroDiario));
             pictureBox1 = new PictureBox();
             panelImg = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -62,6 +63,7 @@ namespace Gui_sistema_contable
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(612, 330);
             Controls.Add(panelImg);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LibroDiario";
             Text = "Libro diario";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -1,4 +1,6 @@
-﻿namespace Gui_sistema_contable
+﻿using System.Windows.Forms;
+
+namespace Gui_sistema_contable
 {
     partial class RegistroAsiento
     {
@@ -20,6 +22,20 @@
             base.Dispose(disposing);
         }
 
+        public void RecalcularSuma(int columnIndex, Label label, String msj)
+        {
+            int suma = 0;
+            // Recorre todas las filas del DataGridView
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                if (dataGridView1.Rows[i].Cells[columnIndex].Value != null)
+                {
+                    suma += Convert.ToInt32(dataGridView1.Rows[i].Cells[columnIndex].Value);
+                }
+            }
+            label.Text = msj + "total: " + suma.ToString();
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -28,6 +44,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistroAsiento));
             panelTop = new Panel();
             lbHasta = new Label();
             dateTimePicker2 = new DateTimePicker();
@@ -39,8 +56,8 @@
             comboBoxDiario = new ComboBox();
             panelCentro = new Panel();
             dataGridView1 = new DataGridView();
-            ColumNombre = new DataGridViewTextBoxColumn();
-            columCuenta = new DataGridViewComboBoxColumn();
+            ColumCuenta = new DataGridViewComboBoxColumn();
+            columNombre = new DataGridViewTextBoxColumn();
             ColumDesc = new DataGridViewTextBoxColumn();
             ColumDebe = new DataGridViewTextBoxColumn();
             ColumHaber = new DataGridViewTextBoxColumn();
@@ -161,8 +178,9 @@
             dataGridView1.AllowDrop = true;
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BackgroundColor = SystemColors.ControlLight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColumNombre, columCuenta, ColumDesc, ColumDebe, ColumHaber });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ColumCuenta, columNombre, ColumDesc, ColumDebe, ColumHaber });
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.Location = new Point(0, 0);
             dataGridView1.MultiSelect = false;
@@ -173,19 +191,20 @@
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // ColumNombre
+            // ColumCuenta
             // 
-            ColumNombre.HeaderText = "Nombre";
-            ColumNombre.Name = "ColumNombre";
-            ColumNombre.ReadOnly = true;
-            ColumNombre.Resizable = DataGridViewTriState.True;
+            ColumCuenta.HeaderText = "Cuenta";
+            ColumCuenta.Items.AddRange(new object[] { "1000: Vender merca", "1001        Comprar fafa", "1002", "1003", "1004", "1005", "2000", "2001" });
+            ColumCuenta.Name = "ColumCuenta";
+            ColumCuenta.Resizable = DataGridViewTriState.True;
+            ColumCuenta.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
-            // columCuenta
+            // columNombre
             // 
-            columCuenta.HeaderText = "Cuenta";
-            columCuenta.Name = "columCuenta";
-            columCuenta.Resizable = DataGridViewTriState.True;
-            columCuenta.SortMode = DataGridViewColumnSortMode.Automatic;
+            columNombre.HeaderText = "Nombre";
+            columNombre.Name = "columNombre";
+            columNombre.ReadOnly = true;
+            columNombre.Resizable = DataGridViewTriState.True;
             // 
             // ColumDesc
             // 
@@ -252,7 +271,7 @@
             lbDebito.Name = "lbDebito";
             lbDebito.Size = new Size(72, 15);
             lbDebito.TabIndex = 0;
-            lbDebito.Text = "Total débito:";
+            lbDebito.Text = "Debito total:";
             lbDebito.Click += label3_Click;
             // 
             // lbCredito
@@ -260,9 +279,9 @@
             lbCredito.AutoSize = true;
             lbCredito.Location = new Point(527, 3);
             lbCredito.Name = "lbCredito";
-            lbCredito.Size = new Size(75, 15);
+            lbCredito.Size = new Size(76, 15);
             lbCredito.TabIndex = 1;
-            lbCredito.Text = "Total crédito:";
+            lbCredito.Text = "Credito total:";
             // 
             // RegistroAsiento
             // 
@@ -272,6 +291,7 @@
             Controls.Add(panelBajo);
             Controls.Add(panelCentro);
             Controls.Add(panelTop);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "RegistroAsiento";
             Text = "Registro de nuevo asiento contable";
             Load += Form1_Load;
@@ -303,8 +323,8 @@
         private Button btnSalir;
         private Button btnEliminar;
         private Button btnGuardar;
-        private DataGridViewTextBoxColumn ColumNombre;
-        private DataGridViewComboBoxColumn columCuenta;
+        private DataGridViewComboBoxColumn ColumCuenta;
+        private DataGridViewTextBoxColumn columNombre;
         private DataGridViewTextBoxColumn ColumDesc;
         private DataGridViewTextBoxColumn ColumDebe;
         private DataGridViewTextBoxColumn ColumHaber;
